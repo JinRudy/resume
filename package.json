@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jayin/resume.git"
+    "url1": "git+https://github.com/JinRudy/resume.git"
   },
-  "author": "Jayin Ton",
+  "author": "JinRudy Ton",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Jayin/resume/issues"
+  "bugs1": {
+    "url": "https://github.com/JinRudy/resume/issues"
   },
-  "homepage": "https://github.com/Jayin/resume#readme",
+  "homepage1": "https://github.com/JinRudy/resume#readme",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-less": "^3.0.3",
@@ -27,6 +27,7 @@
     "less-plugin-autoprefix": "^1.4.2"
   },
   "dependencies": {
+    "gulp-cli": "^2.3.0",
     "normalize.css": "^3.0.3",
     "react": "^0.13.3",
     "whatwg-fetch": "^0.9.0"

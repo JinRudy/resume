@@ -11,9 +11,9 @@ var Resume = React.createClass({
                 </header>
                 <BasicInfo basicinfo={this.props.resume.basicinfo}/>
                 <Social social={this.props.resume.social}/>
-                <ExperienceList type="获奖经历" experiences={this.props.resume.Awards}/>
+                <ExperienceList type="技能点" experiences={this.props.resume.Awards}/>
                 <ExperienceList type="社团/组织" experiences={this.props.resume.socialExperiences}/>
-                <ExperienceList type="实习经历" experiences={this.props.resume.InternExperiences}/>
+                <ExperienceList type="工作经验" experiences={this.props.resume.InternExperiences}/>
                 <ExperienceList type="项目经验" experiences={this.props.resume.ProjectExperience}/>
             </div>
         )
@@ -144,11 +144,35 @@ var Experience  = React.createClass({
                         </div>
                     </div>
                 </div>
-                {!this.props.experience.description ? "" :
+                {/* {!this.props.experience.description ? "" :
                     <div className="description">
                         {this.props.experience.description}
                     </div>
+                } */}
+                {!this.props.experience.description ? "" :
+                    this.props.experience.description instanceof Array ? 
+                        this.props.experience.description.map(function(experience){
+                            return (
+                                <div className="description">
+                                    {experience}
+                                </div>
+                            )
+                        })
+                    :
+                    <div className="description">
+                        {this.props.experience.description}
+                    </div>
+                    
                 }
+                {/* {!this.props.experience.description ? "" :
+                    this.props.experience.description.map(function(experience){
+                        return (
+                            <div className="description">
+                                {experience}
+                            </div>
+                        )
+                    })
+                } */}
             </section>
         )
     }
