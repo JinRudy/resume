@@ -26,7 +26,10 @@ var BasicInfo = React.createClass({
         return (
             <section className="basicinfo" >
                 <div className="text-info name">
-                    {this.props.basicinfo.name}
+                    <div>
+                        <i className="fa fa-phone"></i>
+                        <a href={this.props.basicinfo.resume}>{this.props.basicinfo.name}</a>
+                    </div>
                 </div>
                 <div className="text-info description">
                     {this.props.basicinfo.description}
