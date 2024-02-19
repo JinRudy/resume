@@ -1,5 +1,5 @@
 {
-    "avatar": "/resume/data/2.jpg",
+    "avatar": "/data/image/2.jpg",
     "background_image": "https://9to5mac.files.wordpress.com/2014/08/yosemite-3.jpg?w=1200&h=&crop=1",
     "basicinfo": {
         "name": "王浩楠",
@@ -62,8 +62,8 @@
     ],
     "socialExperiences": [
         {
-            "name": "博客社区",
-            "name_link": "https://JinRudy.github.io",
+            "name": "自建博客社区",
+            "name_link": "https://a.minifog.org.cn/",
             "description": "交流社区主题下的讨论、知识分享等"
         }
     ],
