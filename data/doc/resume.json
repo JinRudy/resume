@@ -1,5 +1,5 @@
 {
-    "avatar": "/data/image/2.jpg",
+    "avatar": "../data/image/2.jpg",
     "background_image": "https://img2.baidu.com/it/u=2837554778,1595249790&fm=253&fmt=auto&app=120&f=JPEG&?w=1200&h=&crop=1",
     "basicinfo": {
         "name": "王浩楠",
